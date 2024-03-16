@@ -117,3 +117,25 @@ input {
 .error {
   border-color: #dc1515;
 }
+
+button {
+  background: #596d48;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bottom-section {
+  margin-left: 40px;
+  font-size: 1.2rem;
+}
+
+.bottom-section a {
+  color: #596d48;
+  text-decoration: none;
+}

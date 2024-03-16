@@ -45,13 +45,17 @@
         </div>
         <div class="field">
           <label for="password">Password</label>
-          <input type="password" id="password" />
+          <input type="password" id="password" required class="error" />
         </div>
         <div class="field">
           <label for="confirm-password">Confirm password</label>
-          <input type="password" id="confirm-password" />
+          <input type="password" id="confirm-password" required class="error" />
         </div>
+        <button type="submit">Create Account</button>
       </form>
+      <p class="bottom-section">
+        Already have an account?<a href="#">Log in</a>
+      </p>
     </div>
   </body>
 </html>
